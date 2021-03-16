@@ -1,0 +1,1 @@
+pandoc --pdf-engine=xelatex --wrap=auto --listings -H docs/listings-setup.tex -o tmp.pdf --toc Readme.md clase01.md clase01-1.md clase01-2.md clase02.md clase03.md clase04.md clase05.md clase05-bis.md docker.md -o Tema02.pdf
